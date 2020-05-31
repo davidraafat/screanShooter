@@ -3,8 +3,9 @@ from PIL import ImageGrab
 import time 
 
 # you should remove screans every time you restart the program
+on = True;
 count = 0;
-while count<100000 :
+while on :
     snapshot = ImageGrab.grab()
     #change your path as u like but after each \ make it \\
     save_path = 'C:\\Users\\David\\Desktop\\Screans\\';
