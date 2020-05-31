@@ -1,4 +1,5 @@
 #taking screans for each 100 ms 
+# please run code on spyder 
 from PIL import ImageGrab
 import time 
 
